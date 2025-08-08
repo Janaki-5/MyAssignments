@@ -11,12 +11,13 @@ public class Bike {
     }
 
     public static void main(String[] args) {
-        Bike Obj = new Bike(); // ✅ Class name corrected
+        Bike Obj = new Bike();  
 
-        Obj.applyBreak();      // ✅ Method will work
-        Obj.soundHorn();       // ✅ Method will work
+        Obj.applyBreak();       
+        Obj.soundHorn();       
 
         System.out.println("Bike object created");
     }
 }
 	
+
